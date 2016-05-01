@@ -17,6 +17,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *string = @"3 + 3 + (2 * 5 + 5 / (23 - 4))";
+    
+    for (int i = 0; i < [string length]; i++) {
+        short ch = [string characterAtIndex:i];
+        if (ch == [@"(" characterAtIndex:0]) {
+            
+        }
+    }
+    
+    
+    
+    
+    
     return YES;
 }
 
